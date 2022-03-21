@@ -50,7 +50,7 @@
 
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', function () {
-        navigator.serviceWorker.register('/firebase-messaging-sw.js');
+        navigator.serviceWorker.register('https://github.com/NNandhakumar26/pushNotification/blob/main/firebase-messaging-sw.js');
         var serviceWorkerUrl = 'flutter_service_worker.js?v=' + serviceWorkerVersion;
         navigator.serviceWorker.register(serviceWorkerUrl)
         // navigator.serviceWorker.register("/firebase-messaging-sw.js")
